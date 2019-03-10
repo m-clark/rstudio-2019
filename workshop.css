@@ -1,0 +1,112 @@
+.emph {
+  color: #a52588; /* #375282 */
+  font-weight: 600;
+}
+
+.pack {
+  color: #136966;  
+  font-weight: 600;
+}
+
+.func {
+  color: #C93312;  
+  font-weight: 600;
+}
+
+.objclass {
+  color: #006400;  /*darkgreen*/
+  font-weight: 500;
+}
+
+body {
+  background-color: #fffff8;   /* original moon 002b36 */
+  background: #fffff8;
+}
+
+.reveal h1, .reveal h2 {
+  color: #81A9D7;  /* RStudio blue*/
+}
+
+a {
+  color: #A52588;
+}
+
+p {
+  color: #5b7575;   /*original moon theme #93a1a1 */ 
+}
+
+
+
+.resize{
+  width: 400px;
+  height: auto;
+}
+
+
+pre {
+  box-sizing: border-box;
+  left: 0; /* This changes where the code chunk box actually starts */
+  /* padding: 10px 0 10px 60px; /* Change the last value here to move the text left or right */
+  position: relative;
+  width: 100%; /* This changes where the code chunk box ends on the right side */
+  font-size: 75%; /*changes output size; and comments*/
+  /*border: 10px solid #ff5500;*/  /*code block and results border*/
+  /*background-color:#ff5500;*/   /* results background*/
+
+}
+
+.reveal section p {
+  text-align: left;
+}
+
+.reveal ol,
+.reveal dl,
+.reveal ul {
+  display: block;
+  text-align: left;
+  margin: 0 0 0 1em; 
+  color:  #5b7575;
+}
+
+.reveal section img { 
+    background: #fffff8;                      /*#002b36 moontheme background color: https://github.com/rstudio/revealjs/tree/master/inst/reveal.js-3.2.0/css/theme*/
+    border: 0;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.15);
+    /*max-width: 500px;*/
+}
+
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}
+
+.col2 {
+  columns: 2 250px;         /* number of columns and width in pixels*/
+   /*font-size: 50%;*/      /* ignored, but can do in the div style within a slide*/
+  /*font-size: 20pt;*/
+  -webkit-columns: 2 200px; /* chrome, safari */
+  -moz-columns: 2 200px;    /* firefox */
+}
+.col3 {
+  columns: 3 100px;
+  /*font-size: 16pt;*/
+  -webkit-columns: 3 100px;
+  -moz-columns: 3 100px;
+}
+
+
+/* none of the following seemed to do much*/
+.title {
+  text-align: center;
+  font-variant: small-caps;
+  margin: 0 auto;
+
+/*  background-image: url('img/CSCAR.png');
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}

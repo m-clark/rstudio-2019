@@ -1,0 +1,94 @@
+---
+title: <span style="font-size:150%; font-variant:small-caps; ">Getting More from RStudio</span>
+author: |
+  <div class="title"><span style="font-size:150%; font-variant:small-caps; color: #eee8d5 ">Michael Clark</span><br><br></div>
+
+date: "`r Sys.Date()`"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: true
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: ../workshop.css
+    reveal_options:
+      self_contained: false
+      reveal_plugins: "search"
+      slideNumber: true
+      previewLinks: true
+      viewDistance: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=120), fig.align = 'center')
+```
+
+
+##
+
+<img src='../img/RStudio-Logo-Blue-Gray-250.png' style="display:block; margin: 0 auto; width:40%">
+
+```{r, child = 'overview.Rmd'}
+```
+
+```{r, child = 'scripting.Rmd'}
+```
+
+```{r, child = 'customization.Rmd'}
+```
+
+```{r, child = 'projects.Rmd'}
+```
+
+```{r, child = 'rmarkdown.Rmd'}
+```
+
+```{r, child = 'notebooks.Rmd'}
+```
+
+```{r, child = 'visualExploration.Rmd'}
+```
+
+```{r, child = 'addins.Rmd'}
+```
+
+
+
+
+
+##
+
+<div style='text-align: center; font-size:32'><h1>More Advanced<h1></div>
+
+
+```{r, child = 'debugging.Rmd'}
+```
+
+```{r, child = 'packageDevelopment.Rmd'}
+```
+
+```{r, child = 'versionControl.Rmd'}
+```
+
+```{r, child = 'cheatSheets.Rmd'}
+```
+
+
+## Summary
+
+RStudio can enhance and accelerate your R experience.
+
+*Not just for scripting!*
+
+It can serve you from the beginning of a project to whatever ends you take it.
+<br><br><br>
+
+<div style:"text-align:center;">
+<span style="color:#EEE8D5; font-size:200%; font-variant:small-caps; font-style:italic">THANKS!</span>
+</div>
+
+
+<br><br><br>
+*Special thanks to Seth Berry @ Notre Dame for loads of help with the content!

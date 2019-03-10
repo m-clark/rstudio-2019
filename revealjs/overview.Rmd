@@ -1,0 +1,71 @@
+---
+title: "Overview"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+##
+
+<div style='text-align: center; font-size:32'>
+<h1>Overview<h1>
+<img src='../img/RStudio-Logo-Blue-Gray-250.png'>
+</div>
+
+
+
+## Overview 
+
+Base R is an extremely powerful tool. However...
+
+The syntax editor in Base R is just a simple text editor.
+
+RStudio is relatively more efficient and easy to use.
+
+There are actually many options:
+
+- RStudio
+- General text editors like Notepad++, Sublime, Vim
+- Other R-based text editors e.g. Emacs Speaks Statistics
+- Other R-based IDE options e.g. Architect
+- Other IDEs with R functionality, e.g. Eclipse, Visual Studio
+
+## Overview
+
+RStudio offers:
+
+- Code completion and snippets
+- Code diagnostics
+- Customizable shortcuts
+- Document generation (web, pdf, presentation, .doc)
+- Web publishing
+
+
+## Overview
+
+RStudio offers:
+
+- Enhanced debugging, profiling
+- Navigable data frames
+- Version control
+- Interactive visualization
+- Addins
+
+
+## Overview 
+
+RStudio is also an excellent tool for reproducible research.
+
+- Project management
+- Package building and freezing
+- Document generation
+
+
+<img src="../img/data2pres.png" style="display:block; margin: 0 auto; width:40%">

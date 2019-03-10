@@ -1,0 +1,59 @@
+---
+title: "Notebooks"
+output: 
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Notebooks<h1></div>
+
+
+
+## Notebooks
+
+<span class="emph">Notebooks</span> provide a different way to interact with R.
+
+Previously one could save out some files as a 'notebook'.
+
+Now one can start an interactive R script.
+
+- chunks of R code can be executed independently as needed
+
+Output is visible at the point where the code is written. 
+
+
+
+
+## Notebooks
+
+File/New File/R Noteboook...
+
+<img src="../img/notebook.png" style="display:block; margin: 0 auto;">
+
+
+
+## Notebooks
+
+You may still want to use (or prefer) the console
+
+-  But you don't have to.
+
+The viewer will allow for previews of the final document.
+
+
+## Notebooks
+
+Notebooks are a different flavor of Rmarkdown document.
+
+Good for sharing your work.
+
+See also, <span class="emph">Jupyter</span>.

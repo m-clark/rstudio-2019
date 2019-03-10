@@ -1,0 +1,63 @@
+---
+title: "Addins"
+output: .
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: pygments
+    center: false
+    transition: fade
+    smart: true
+    background_transition: slide
+    css: workshop.css
+---
+
+
+## 
+
+<div style='text-align: center; font-size:32'><h1>Addins<h1></div>
+
+
+## Addins
+
+One can create functions that can be used within RStudio with a click or keystroke.
+
+These special functions are called <span class="emph">*addins*</span>.
+
+Increase your productivity and efficiency when scripting.
+
+They can be *anything*.
+
+- One of the more useful is text insertion/formatting.
+- Saves a lot of time in document creation
+
+
+## Creating Addins
+
+Addins are in some sense nothing more than R functions that you can call interactively.
+
+```{r}
+likeR = function() {
+  rstudioapi::insertText("I like R!")
+}
+```
+
+```
+likeR()
+I like R!
+```
+
+However, they can possibly do quite a bit.
+
+## Example: ColorPicker
+
+<img src="../img/colorpicker.png" style="display:block; margin: 0 auto; width: 75%">
+
+
+## Example: Radiant
+
+<img src="../img/addin_radiant.png" style="display:block; margin: 0 auto; width: 75%">
+
+## A list
+
+
+https://github.com/daattali/addinslist#readme
