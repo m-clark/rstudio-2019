@@ -19,11 +19,11 @@ output: .
 ## What is Debugging?
 
 
-<span class="emph">Debugging</span> is merely finding and fixing problematic code.
+<span class="emph">Debugging</span> is merely finding and fixing problematic code
 
   - Code will always have bugs
 
-Debugging is an essential part of creating functions.
+Debugging is an essential part of creating functions
 
 ## A note about functions
 
@@ -37,12 +37,12 @@ Debugging can allow one to spot issues
 
 RStudio can even help you get started transforming existing code to a function
 
-- Ctrl+Alt+X/Cmnd+Opt+X on highlighted code
+- Ctrl+Alt+X/Cmd+Opt+X on highlighted code
 
 
 ## Debugging in RStudio
 
-There are numerous facilities within R to help you debug your code.
+There are numerous facilities within R to help you debug your code
 
 - Break Points
 
@@ -55,7 +55,7 @@ There are numerous facilities within R to help you debug your code.
 - <span class="func">traceback</span>
 
 
-RStudio makes the process pretty easy.
+RStudio makes the process pretty easy
 
 
 ## Debug Mode Commands
@@ -87,9 +87,9 @@ Each of these also has a button in the debugging menu
 
 Code <span class="emph">profiling</span> allows one to see what parts of the code take most of the processing time and resources (memory)
 
-Like debugging, there have always been tools in base R for this, but RStudio makes it easy to profile any code.
+Like debugging, there have always been tools in base R for this, but RStudio makes it easy to profile any code
 
-Furthermore, it doesn't have to be an explicit function.
+Furthermore, it doesn't have to be an explicit function
 
 ## Profiling
 
@@ -99,10 +99,10 @@ Furthermore, it doesn't have to be an explicit function.
 
 ## Debugging and profiling
 
-Debugging and profiling are important parts of advanced programming.
+Debugging and profiling are important parts of advanced programming
 
-One should desire to make code as general and reproducible as possible.
+One should desire to make code as general and reproducible as possible
 
 - Regardless of expertise!
 
-RStudio makes the process more interactive and flexible.
+RStudio makes the process more interactive and flexible!

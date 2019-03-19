@@ -19,7 +19,7 @@ output: .
 
 ## Package Development
 
-RStudio makes package development easier too.
+RStudio makes package development easier too
 
 - New Project/New Directory/R Package
 
@@ -30,9 +30,9 @@ RStudio makes package development easier too.
 
 "Create package based on source files" 
 
-- allows you to include previously written functions in your new package.
-- functions you added at this step will have their own help files created.
-- You will still need to complete the help files.
+- allows you to include previously written functions in your new package
+- functions you added at this step will have their own help files created
+- You will still need to complete the help files
 
 
 ## What You Get
@@ -43,18 +43,18 @@ RStudio will automatically start you out with the following:
 
   - A 'man' folder: Contains .Rd files for each function
 
-  - An 'R' folder: Contains your functions.
+  - An 'R' folder: Contains your functions
 
-The <span class="pack">roxygen2</span> package helps to properly format your documentation files.
+The <span class="pack">roxygen2</span> package helps to properly format your documentation files
 
 
 ## Build, Reload, Check
 
-After you have all of your files ready, <span class="emph">build</span> the package.
+After you have all of your files ready, <span class="emph">build</span> the package
 
-Packages tend to have a lot happening in them.
+Packages tend to have a lot happening in them
 
-To help you make sure that the package has everything it needs, run the <span class="func">check</span> function from <span class="pack">devtools</span> on it.
+To help you make sure that the package has everything it needs, run the <span class="func">check</span> function from <span class="pack">devtools</span> on it
 
 It will check package quality across many dimensions:
 
@@ -65,7 +65,14 @@ It will check package quality across many dimensions:
 
 ## Packages
 
-RStudio has tools that make package creation a straight-forward process.
+RStudio has tools that make package creation a straight-forward process
+
+Then there are packages that help you do the most common things automatically
+
+- <span class="pack">devtools</span>: build, check, clean, etc. 
+- <span class="pack">usethis</span>: create commonly used files and more
+- <span class="pack">testthat</span>: test your functions
+- <span class="pack">pkgdown</span>: create a website for your package  
 
 You should not be afraid to create your own packages
 

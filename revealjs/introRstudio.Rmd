@@ -19,6 +19,8 @@ output:
       slideNumber: true
       previewLinks: true
       viewDistance: 3
+      minScale: 1.0
+      maxScale: 1.0
 ---
 
 ```{r setup, include=FALSE}
@@ -78,17 +80,14 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ## Summary
 
-RStudio can enhance and accelerate your R experience.
+RStudio can enhance and accelerate your R experience
 
 *Not just for scripting!*
 
-It can serve you from the beginning of a project to whatever ends you take it.
+It can serve you from the beginning of a project to whatever ends you take it
 <br><br><br>
 
 <div style:"text-align:center;">
 <span style="color:#EEE8D5; font-size:200%; font-variant:small-caps; font-style:italic">THANKS!</span>
 </div>
 
-
-<br><br><br>
-*Special thanks to Seth Berry @ Notre Dame for loads of help with the content!

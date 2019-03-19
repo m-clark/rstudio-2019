@@ -18,9 +18,9 @@ output: .
 
 ## Cheat Sheets - RStudio Style
 
-RStudio wants everything to be easy for us as R users.
+RStudio wants everything to be easy for us as R users
 
-They provide a series of cheat sheets as reference material.
+They provide a series of cheat sheets as reference material
 
 https://www.rstudio.com/resources/cheatsheets/
 
@@ -29,7 +29,7 @@ https://www.rstudio.com/resources/cheatsheets/
 
 RStudio even has a cheatsheet for using RStudio!
 
-Provides a high-level overview for many of the things discussed here.
+Provides a high-level overview for many of the things discussed here
 
 
 ## Other Cheat Sheets
@@ -44,5 +44,6 @@ Package Development
 
 Shiny
 
+And more!
 
 

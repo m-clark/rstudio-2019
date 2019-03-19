@@ -80,7 +80,7 @@ R Markdown documents combine:
 print("This is an R chunk, in a slide, of the presentation you're looking at!")
 ```
 
-<img src="../img/rchunk.png" style="display:block; margin: 0 auto; width:85%">W
+<img src="../img/rchunk.png" style="display:block; margin: 0 auto; width:85%">
 
 ## R Markdown
 
@@ -102,3 +102,5 @@ and the main R Markdown reference text...
 [m-clark.github.io/generalized-additive-models/](https://m-clark.github.io/generalized-additive-models/)
 
 [m-clark.github.io/bayesian-basics/](https://m-clark.github.io/bayesian-basics)
+
+[m-clark.github.io/reliability/](https://m-clark.github.io/reliability) (in progress)

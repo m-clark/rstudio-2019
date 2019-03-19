@@ -63,7 +63,7 @@ Some packages to note:
 
 Works in your presentations too.
 
-```{r}
+```{r airport_traffic}
 library(plotly)
 df <- read.csv('https://raw.githubusercontent.com/plotly/datasets/master/2011_february_us_airport_traffic.csv')
 df$pop = maps::us.cities$pop[match(paste(df$city, df$state), maps::us.cities$name)]
@@ -90,14 +90,27 @@ g <- list(
   bgcolor='rgba(0,0,0,0)'
 )
 
-plot_ly(df, lat = ~lat, lon = ~long, text = ~hover, color = ~cnt, marker=m, 
-        type = 'scattergeo', locationmode = 'USA-states', mode = 'markers', colors='RdBu',
-         width=1000) %>%
-  layout(title = 'Most trafficked US airports<br>(Hover for airport)', geo = g,
-         paper_bgcolor='rgba(0,0,0,0)',
-         plot_bgcolor='rgba(0,0,0,0)',
-         font=list(color=toRGB("gray85"))
-         )
+df %>%
+  plot_ly(
+    lat = ~lat, 
+    lon = ~long, 
+    text = ~hover, 
+    color = ~cnt, 
+    marker = list(size = ~scales::rescale(df$pop, c(3, 20))), 
+    type = 'scattergeo', 
+    locationmode = 'USA-states', 
+    mode = 'markers', 
+    colors = 'RdBu',
+    width = 1000, 
+    name = ''
+) %>%
+  layout(
+    title = 'Most trafficked US airports<br>(Hover for airport info)', 
+    geo = g,
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)',
+    font=list(color=toRGB("gray85"))
+  )
 ```
 
 
@@ -107,7 +120,7 @@ plot_ly(df, lat = ~lat, lon = ~long, text = ~hover, color = ~cnt, marker=m,
 
 - Provided by RStudio developers
 
-Most of the more recently developed visualization packages will work specifically within the shiny and rmarkdown settings.
+Most of the more recently developed visualization packages will work specifically within the Shiny and R Markdown settings.
 
 
 
@@ -115,10 +128,10 @@ Most of the more recently developed visualization packages will work specificall
 ## Interactive and Visual Data Exploration
 
 
-RStudio lets you take a deeper look at your data more easily.
+RStudio lets you take a deeper look at your data more easily
 
-Accessible interactivity.
+Accessible interactivity
 
 Interactive graphics are more fun too!
 
-Just a couple visualization packages can go a very long way.
+Just a couple visualization packages can go a very long way
