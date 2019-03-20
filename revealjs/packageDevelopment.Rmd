@@ -54,7 +54,7 @@ After you have all of your files ready, <span class="emph">build</span> the pack
 
 Packages tend to have a lot happening in them
 
-To help you make sure that the package has everything it needs, run the <span class="func">check</span> function from <span class="pack">devtools</span> on it
+Run the <span class="func">check</span> function from <span class="pack">devtools</span> on it
 
 It will check package quality across many dimensions:
 
@@ -65,9 +65,9 @@ It will check package quality across many dimensions:
 
 ## Packages
 
-RStudio has tools that make package creation a straight-forward process
+RStudio makes package creation a straight-forward process
 
-Then there are packages that help you do the most common things automatically
+Then there are packages that help you do the most common things automatically, like...
 
 - <span class="pack">devtools</span>: build, check, clean, etc. 
 - <span class="pack">usethis</span>: create commonly used files and more

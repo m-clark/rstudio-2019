@@ -29,7 +29,7 @@ https://www.rstudio.com/resources/cheatsheets/
 
 RStudio even has a cheatsheet for using RStudio!
 
-Provides a high-level overview for many of the things discussed here
+High-level overview for many of the things discussed here
 
 
 ## Other Cheat Sheets

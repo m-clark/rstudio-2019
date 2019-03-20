@@ -44,5 +44,3 @@ _book/*.pdf
 
 *.Rmd linguist-language=R
 *.stan linguist-language=Stan
-*.inp linguist-language=Mplus
-*.out linguist-generated=true

@@ -38,6 +38,13 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 ```{r, child = 'customization.Rmd'}
 ```
 
+## 
+
+<div style='text-align: center; font-size:32'><h1>Going Further<h1></div>
+
+<img src="../img/RStudio-Logo-Blue-Gray-250.png" style="display:block; margin:0 auto; width:25%"></img>
+
+
 ```{r, child = 'projects.Rmd'}
 ```
 
@@ -61,6 +68,7 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 <div style='text-align: center; font-size:32'><h1>More Advanced<h1></div>
 
+<img src="../img/RStudio-Logo-Blue-Gray-250.png" style="display:block; margin:0 auto; width:25%"></img>
 
 ```{r, child = 'debugging.Rmd'}
 ```
@@ -77,11 +85,13 @@ knitr::opts_chunk$set(echo = FALSE, message=F, warning=F, R.options=list(width=1
 
 ## Summary
 
+*RStudio is not just for writing R code!*
+
 RStudio can enhance and accelerate your R experience
 
-*Not just for scripting!*
+It can serve you from the beginning of a project...
 
-It can serve you from the beginning of a project to whatever ends you take it
+...to whatever ends you take it!
 <br><br><br>
 
 <div style:"text-align:center;">

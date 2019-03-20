@@ -58,13 +58,13 @@ Public vs. private repositories
 
 ## GitHub
 
-GitHub provides web-based hosting services for Git repositories
+GitHub provides hosting services for Git repositories
 
 And is also a social network for software developers...
 
-Or just people who do fun things with code!
+... or just people who do fun things with code!
 
-
+Stay ahead of the game by following R developers!
 
 <img src="../img/octocat.png" style="display:block; margin: 0 auto; width:40%">
 
@@ -82,7 +82,8 @@ RStudio makes it easy to commit, push, pull, revert, etc.
 
 If you need other things, you can access the Git shell directly
 
-<img src="../img/commitsndiffs.png" style="display:block; margin: 0 auto; width:50%">
+<br>
+<img src="../img/commitsndiffs.png" style="display:block; margin: 0 auto; width:66%">
 
 
 ## Version Control
