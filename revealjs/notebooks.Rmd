@@ -20,15 +20,13 @@ output:
 
 ## Notebooks
 
-<span class="emph">Notebooks</span> provide a different way to interact with R.
+<span class="emph">Notebooks</span> provide a different way to interact with R
 
-Previously one could save out some files as a 'notebook'.
-
-Now one can start an interactive R script.
+Now one can start an interactive R script
 
 - chunks of R code can be executed independently as needed
 
-Output is visible at the point where the code is written. 
+Output is visible at the point where the code is written
 
 
 
@@ -43,17 +41,17 @@ File/New File/R Noteboook...
 
 ## Notebooks
 
-You may still want to use (or prefer) the console
+You may still want to use (or prefer) the console and plot/viewer panes
 
 -  But you don't have to.
 
-The viewer will allow for previews of the final document.
+The viewer will allow for previews of the final document
 
 
 ## Notebooks
 
-Notebooks are a different flavor of Rmarkdown document.
+Notebooks are a different flavor of R Markdown document
 
-Good for sharing your work.
+Good for sharing your work
 
-See also, <span class="emph">Jupyter</span>.
+See also, <span class="emph">Jupyter</span>, which works with R

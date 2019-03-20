@@ -29,12 +29,12 @@ output: .
 
 ## What is R?
 <div style='font-size:90%'>
-R is Not just for statistics anymore!
+R is not just for data analysis!
 
 - a general programming environment 
 
 <div class="col2" style='font-size:100%'>
-<span class="emph">Markdown</span> is a markup language.
+<span class="emph">Markdown</span> is a markup language
 <br><br>
 <img src="../img/Markdown-mark.svg" style="display:block; margin: 0 auto; width:25%">
 </div>
@@ -62,12 +62,14 @@ RStudio and R Markdown make it easy to construct:
 <span class="emph" style="font-variant:small-caps; font-size:125%; text-align:center">*Literate programming!*</span>
 
 <span class="emph" style="font-variant:small-caps; font-size:125%">*Reproducible research!*</span>
+
+<span class="emph" style="font-variant:small-caps; font-size:125%">*Production level results!*</span>
 </div>
 
 
 ## Example
 
-R <span class="emph">chunks</span> are interspersed throughout the Rmd file.
+R <span class="emph">chunks</span> are interspersed throughout the Rmd file
 
 R Markdown documents combine:
 
@@ -84,7 +86,7 @@ print("This is an R chunk, in a slide, of the presentation you're looking at!")
 
 ## R Markdown
 
-Once ready, <span class="emph">knit</span> the document into the format your want.
+Once ready, <span class="emph">knit</span> the document into the format your want
 
 - Ctrl/Cmd-Shft-K
 

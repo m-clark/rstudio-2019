@@ -19,18 +19,18 @@ output: .
 
 ## The Viewer
 
-Along with the <span class="emph">Plots</span> pane, RStudio provides a <span class="emph">Viewer</span> pane.
+Along with the <span class="emph">Plots</span> pane, RStudio provides a <span class="emph">Viewer</span> pane
 
-Anything interactive will be displayed there.
+Anything interactive will be displayed there
 
 
 ## Packages
 
-<span class="pack">ggplot2</span> is the most widely used package for visualization in R.
+<span class="pack">ggplot2</span> is the most widely used package for visualization in R
 
-However, it does not produce interactive plots by nature.
+However, it does not produce interactive plots by nature
 
-Many packages use various Javascript libraries to provide interactive graphics.
+Many packages use various Javascript libraries to provide interactivity
 
 <div class="col2">
   - <span class="pack">d3</span>
@@ -44,19 +44,19 @@ Many utilize these packages via the <span class="pack">htmlwidgets</span> R pack
 
 ## Packages
 
-Some packages to note:
+Some packages to get started:
 
   - <span class="pack">plotly</span>
-    - used also in Python, Matlab, Julia, aside from many interactive plots, can convert ggplot2 images to interactive ones.
-
-  - <span class="pack">ggvis</span>
-    - interactive successor to to ggplot though not currently actively developed
-
-  - <span class="pack">rbokeh</span>
-    - like plotly, also has cross program support
-
+    - used also in Python, Matlab, Julia, aside from many interactive plots, can convert ggplot2 images to interactive ones
+  
+  - <span class="pack">leaflet</span>
+    - interactive maps
+    
   - <span class="pack">DT</span>
     - interactive data tables
+
+  - <span class="pack">highcharter</span>
+    - quick and easy interactivity
 
 
 ## Example
@@ -118,10 +118,9 @@ df %>%
 
 <span class="emph">Shiny</span> is a framework that can essentially allow you to build an interactive website.
 
-- Provided by RStudio developers
+Most of the more recently developed visualization packages will work specifically within the Shiny and R Markdown settings
 
-Most of the more recently developed visualization packages will work specifically within the Shiny and R Markdown settings.
-
+Other tools make working with Shiny easier (e.g. <span class="pack">flexdashboard</span>)
 
 
 

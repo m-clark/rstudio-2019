@@ -23,6 +23,7 @@ body {
   background: #fffff8;
 }
 
+
 .reveal h1, .reveal h2 {
   color: #81A9D7;  /* RStudio blue*/
 }
@@ -83,6 +84,7 @@ pre {
   font-size: 0.5em;
 }
 
+
 .col2 {
   columns: 2 250px;         /* number of columns and width in pixels*/
    /*font-size: 50%;*/      /* ignored, but can do in the div style within a slide*/
@@ -109,4 +111,8 @@ pre {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%; */
+}
+
+h3.date {
+  color: #81A9D7;
 }

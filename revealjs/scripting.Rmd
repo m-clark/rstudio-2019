@@ -26,14 +26,14 @@ Everyone who uses RStudio benefits from easier scripting:
 - <span class="emph">Autopairing</span> of parenthesis, quotes etc.
 - <span class="emph">Auto indent</span> 
 
-It even makes working at the console viable.
+It even makes working at the console viable...
 
 - Still not advised
 
 
 ## Keyboard shortcuts: standard scripts
 
-Knowing a few <span class="emph">shortcuts</span> can save *a lot* of time in the long run.
+Knowing a few <span class="emph">shortcuts</span> can save *a lot* of time in the long run
 
 Examples (Windows and Linux):
 
@@ -79,24 +79,25 @@ Examples (Windows and Linux):
 
 ## Keyboard shortcuts
 
-Knowing just a dozen shortcuts could <span class="emph">*save a lot of time*</span>.
+Knowing just a dozen shortcuts could <span class="emph">*save a lot of time*</span>
 
 - Bonus: Ctrl + Shft + A (tidy up your code)
 
-You can customize them however you want.
+You can customize them however you want
 
-Mac users: most use Cmd and Opt rather than Ctrl and Alt
+Mac users: *most* use Cmd and Opt rather than Ctrl and Alt
 
 
 ## Snippets
 
-<span class="emph">Snippets</span> allow one to insert code of a certain form for commonly used functions.
+<span class="emph">Snippets</span> allow one to insert code of a certain form for commonly used functions
 
-You only have to type the first couple letters, the form of the rest of the code will fill out, then you can tab your way through the rest of it.
+You only have to type the first couple letters, the form of the rest of the code will fill out, then you can tab your way through the rest of it
 
 Good for:
 
 - starting functions
+- if... else;  for (...)
 - apply family of functions
 - even for other languages
 
@@ -127,13 +128,14 @@ apply(array, margin, ...)
 
 ## Code Diagnostics
 
-RStudio will note problems in your code in the margin.
+RStudio will note problems in your code in the margin
 
 - Examples: hanging brackets, too many commas etc.
 
 This works beyond just R scripts too!
 
 ## Code Diagnostics
+
 <img src="../img/codediagnosticcss.png" style="display:block; margin: 0 auto; width:100%">
 
 

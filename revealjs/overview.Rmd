@@ -25,27 +25,30 @@ output:
 
 Base R is an extremely powerful tool. However...
 
-The syntax editor in Base R is just a simple text editor.
+The console is not conducive to efficiency
 
-RStudio is relatively more efficient and easy to use.
+The syntax editor in Base R is just a simple text editor
 
-There are actually many options:
+
+There are actually many options for R:
 
 - RStudio
-- General text editors like Notepad++, Sublime, Vim
+- General text editors like Notepad++, Atom, Sublime, Vim
 - Other R-based text editors e.g. Emacs Speaks Statistics
 - Other R-based IDE options e.g. Architect
 - Other IDEs with R functionality, e.g. Eclipse, Visual Studio
 
+
 ## Overview
 
-RStudio offers:
+RStudio (the IDE) offers:
 
 - Code completion and snippets
 - Code diagnostics
 - Customizable shortcuts
 - Document generation (web, pdf, presentation, .doc)
 - Web publishing
+- Other services: RStudio Server, RSConnect, Shiny Server etc.
 
 
 ## Overview
